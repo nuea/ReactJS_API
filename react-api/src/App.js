@@ -47,7 +47,7 @@ class App extends Component {
                 <td scope="row">{item.id}</td>
                 <td>{item.name}</td>
                 <td>{item.email}</td>
-                <td>{item.city}</td>
+                <td>{item.address.city}</td>
                 <td>{item.phone}</td>
                 <td>{item.website}</td>
               </tr>
